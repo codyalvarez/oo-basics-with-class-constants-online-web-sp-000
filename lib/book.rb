@@ -6,11 +6,6 @@ class Book
 
   def initialize(title)
     @title = title
-
-    if GENRES.include?(genre)
-    else
-      GENRES << genre
-    end
   end
 
   def turn_page
